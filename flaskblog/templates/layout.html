@@ -10,23 +10,23 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
  <link rel="stylesheet" type="text/css" href="{{url_for('static' , filename='main.css')}}">
     {% if title %}
-    <title>Flask Blog - {{title}}</title>
+    <title> Blog - {{title}}</title>
     {% else %}
-    <title>Flask Blog</title>
+    <title> Blog creator Application</title>
     {% endif %}
 </head>
 <body>
 <header class="site-header">
     <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
   <div class="container">
-      <a class="navbar-brand mr-4" href="/">Flask Blog</a>
+      <a class="navbar-brand mr-4" href="/">Blog Creator Application</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarToggle">
     <div class="navbar-nav mr-auto">
         <a class="nav-item nav-link" href="{{url_for('main.home')}}">Home</a>
-        <a class="nav-item nav-link" href="{{url_for('main.about')}}">About</a>
+<!--        <a class="nav-item nav-link" href="{{url_for('main.about')}}">About</a>-->
     </div>
 <!--      Navbar Right Side-->
       <div class="navbar-nav">
