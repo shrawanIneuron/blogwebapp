@@ -5,12 +5,16 @@ body {
 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
   color: #444444;
 }
+h2{
+color:#fff;
+}
+
 
 .bg-steel {
-  background-color: #605f8a;
+  background-color: #9e7380;
 }
 
 .site-header .navbar-nav .nav-link {
@@ -26,17 +30,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content-section {
-  background: #ffffff;
+  background: #7f7175;
   padding: 10px 20px;
   border: 1px solid #dddddd;
   border-radius: 5px;
   margin-bottom: 20px;
 }
 
-.article-title {
-  color: #444444;
+a.article-title {
+  color: #fff;
 }
-
+a.mr-2{
+color: #fff;
+}
 a.article-title:hover {
   color: #428bca;
   text-decoration: none;
@@ -46,6 +52,15 @@ a.article-title:hover {
   white-space: pre-line;
 }
 
+.media-body p{
+color:#fff;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+}
 .article-img {
   height: 65px;
   width: 65px;
@@ -55,7 +70,8 @@ a.article-title:hover {
 .article-metadata {
   padding-bottom: 1px;
   margin-bottom: 4px;
-  border-bottom: 1px solid #e3e3e3
+  border-bottom: 1px solid #e3e3e3;
+  color:#fff;
 }
 
 .article-metadata a:hover {
@@ -79,3 +95,6 @@ a.article-title:hover {
 .account-heading {
   font-size: 2.5rem;
 }
+
+
+
